@@ -39,13 +39,41 @@ Será criado um arquivo `src/siga_demo.db` local, ignorado pelo Git. Insira **so
 
 ## 📸 Evidências da primeira versão
 
-As evidências foram registradas no Google Colab e serão adicionadas na pasta `imagens/` em uma próxima atualização. Elas incluem:
+Os **11 prints já estão publicados** na pasta [`imagens/`](imagens/). São capturas do desenvolvimento no **Google Colab**, mostrando partes do código e as saídas da primeira versão. Abaixo estão as evidências mais relevantes para leitura do portfólio.
 
-1. Código Python, tabelas e consultas SQL;
-2. Cadastro, consulta, busca e situação dos leitos;
-3. Execução do menu e teste de opção inválida.
+### 1. Conexão e estrutura do banco de dados
 
-**Quando os prints forem publicados**, esta seção receberá as imagens com suas descrições. [Pasta de imagens (a ser preenchida)](imagens/).
+Trechos de conexão com SQLite e definição das estruturas utilizadas para registrar informações.
+
+![Conexão com banco de dados](imagens/01_conexao_banco.png)
+
+![Criação de tabela com SQL](imagens/02_tabela_sql.png)
+
+### 2. Situação e ocupação de leitos
+
+Rotinas de cálculo e apresentação da disponibilidade de leitos, exemplificando a transformação dos registros em informações operacionais.
+
+![Situação dos leitos](imagens/07_situacao_leitos.png)
+
+### 3. Cadastro e validação
+
+Rotinas de cadastro e verificação de disponibilidade, com tratamento de condições antes do registro.
+
+![Cadastro e validação de leito](imagens/08_cadastro_validacao_leito.png)
+
+### 4. Navegação e testes no console
+
+Organização das funcionalidades em um menu textual e execução de testes de interação.
+
+![Menu principal do SIGA](imagens/10_menu_principal.png)
+
+![Teste do menu do SIGA](imagens/11_teste_menu.png)
+
+### 📂 Outras evidências disponíveis
+
+Também foram preservados os registros de [configuração dos leitos](imagens/03_configuracao_leitos.png), [atualização da ocupação](imagens/04_atualizacao_ocupacao.png), [cadastro inicial](imagens/05_cadastro_inicial.png), [contagem de acolhidos](imagens/06_contagem_acolhidos.png) e [função de cadastro](imagens/09_funcao_cadastro.png).
+
+> **Nota:** as capturas ilustram a versão original desenvolvida no Colab. O arquivo `src/siga_demo.py` publicado no repositório é uma reimplementação demonstrativa separada. Os cortes ampliados facilitam a visualização, mas a nitidez está limitada à captura original.
 
 ## 🗺️ Próximas etapas
 
